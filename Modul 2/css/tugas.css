@@ -1,0 +1,19 @@
+body {
+	background-image: url('../image.jpg');
+   	background-repeat: no-repeat;
+   	position: fixed;
+   	background-size: 100%;
+}
+#bungkus{
+	margin: 350px 0px 0px 90px;
+	background-color: rgba(25,25,25,0.6);
+	padding: 5px 10px 5px 10px;
+	width: 600px;
+}
+h2 {
+	color: #F4f4f4;
+	font-family: arial,sans-serif;
+}
+p{
+	color: #FFFFFF;
+}
