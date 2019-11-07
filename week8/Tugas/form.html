@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM MAHASISWA</title>
+</head>
+<body>
+	<h1>FORM Tambah database Mahasiswa MySQL</h1> 
+	<h2>Tambah siswa</h2>
+	<form action="prosesTambah.php" method="post" enctype="multipart/form-data"> 
+		NRP     : 
+		<input type="text" name="nrp" size="35" maxlength="50"> <br> <br>
+		Nama     : 
+		<input type="text" name="nama" size="35" maxlength="50"> <br> <br>
+		Alamat     : <br>
+		<textarea name="alamat" rows="5" cols="30"></textarea> <br> <br>
+		Foto     : 
+		<input type="file" name="foto" accept="image/*"> <br> <br>
+		Jurusan  :
+		<select name="jurusan">
+			<option value="1">Telekomunikasi</option>
+			<option value="2">Elka</option>
+			<option value="3">IT</option>
+			<option value="4">Elin</option>
+		</select> <br><br>
+		<input type="submit" value="Simpan"> 
+	</form> 
+	<hr><hr>
+	<h2>Search data</h2>
+	<form action="hasilsearch.php" method="post">
+	Nama : 
+	<input type="text" name="namasearch" size="35" maxlength="50">
+	<input type="submit" value="Cari data">
+	</form>
+	<hr><hr>
+	<h2>Hapus data</h2>
+	<form action="hapus.php" method="post">
+	NRP: 
+	<input type="text" name="nrpsearch" size="35" maxlength="50">
+	<input type="submit" value="Hapus data">
+	</form>
+<br><br>
+</body>
+</html>
