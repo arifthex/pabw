@@ -2,19 +2,20 @@
 //start session
 session_start();
 
- include_once('User.php');
- $user = new User();
+include_once('User.php');
 
- if(isset($_POST['login'])){
+$user = new User();
+
+if(isset($_POST['login'])){
 	$username = $user->escape_string($_POST['username']);
 	$password = $user->escape_string($_POST['password']);
+
 	$auth = $user->check_login($username, $password);
 
-	if(!$auth){
+	if(!$auth) {
 		$_SESSION['message'] = 'Username atau password salah';
 		header('location:index.php');
-	}
-	else{
+	} else {
 		$_SESSION['user'] = $auth;
 		header('location:home.php');
 	}
