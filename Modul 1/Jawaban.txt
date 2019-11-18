@@ -1,0 +1,12 @@
+1. Lakukanlah perubahan pada kode HTML sesuai keinginan anda,
+Pernakah terjadi error ketika adakesalahan kode?
+2. Cobalah ubah nilai meta refresh <meta HTTP-EQUIV="REFRESH"
+content="5; url=http://google.co.id"> apa yang terjadi?, maka jelaskan
+apa diantara kegunaan meta dokumen?
+3. Jelaskan fungsi tag HTML pada Table: thead, tbody, tr, th serta td!
+
+Jawaban :
+1. pernah
+2. pada saat mengubah meta tersebut, maka page halaman akan merefresh dalam 5 detik dengan link tujuan ke home google search
+3. thead merupakan tag head untuk kepala dari header tabel, tbody untuk tag isi dari tabel, tr merupakan untuk pembentukan pengenalan baris baru pada tabel, th untuk pembentukan kolom pada header dan tulisan pada th bold, dan td merupakan pembentukan kolom untuk tag pada body tabel dan tulisan nya tidak bold.
+
